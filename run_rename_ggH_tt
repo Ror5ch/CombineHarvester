@@ -1,0 +1,12 @@
+python ../../rename_ggH_tt.py --inputfile cmb/common/htt_tt_input_2016.root --outputfile cmb/common/htt_tt_input_2016_renamed.root
+mv cmb/common/htt_tt_input_2016.root cmb/common/htt_tt_input_2016_origi.root
+mv cmb/common/htt_tt_input_2016_renamed.root cmb/common/htt_tt_input_2016.root
+
+python ../../rename_ggH_tt.py --inputfile cmb/common/htt_tt_input_2017.root --outputfile cmb/common/htt_tt_input_2017_renamed.root
+mv cmb/common/htt_tt_input_2017.root cmb/common/htt_tt_input_2017_origi.root
+mv cmb/common/htt_tt_input_2017_renamed.root cmb/common/htt_tt_input_2017.root
+
+python ../../rename_ggH_tt.py --inputfile cmb/common/htt_tt_input_2018.root --outputfile cmb/common/htt_tt_input_2018_renamed.root
+mv cmb/common/htt_tt_input_2018.root cmb/common/htt_tt_input_2018_origi.root
+mv cmb/common/htt_tt_input_2018_renamed.root cmb/common/htt_tt_input_2018.root
+

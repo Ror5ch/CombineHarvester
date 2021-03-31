@@ -1,0 +1,21 @@
+source run_HVV_runScans $1 2018 fa3
+source run_HVV_runScans $1 2017 fa3
+source run_HVV_runScans $1 2016 fa3
+
+source run_HVV_runScans $1 2018 fa2
+source run_HVV_runScans $1 2017 fa2
+source run_HVV_runScans $1 2016 fa2
+
+source run_HVV_runScans $1 2018 fL1
+source run_HVV_runScans $1 2017 fL1
+source run_HVV_runScans $1 2016 fL1
+
+source run_HVV_runScans $1 2018 fL1Zg
+source run_HVV_runScans $1 2017 fL1Zg
+source run_HVV_runScans $1 2016 fL1Zg
+
+source run_ggH_runScans $1 2018 fa3
+source run_ggH_runScans $1 2017 fa3
+source run_ggH_runScans $1 2016 fa3
+
+

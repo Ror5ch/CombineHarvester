@@ -1,0 +1,32 @@
+# Datacard produced by CombineHarvester with git status: analysis-HIG-16-006-freeze-080416-715-gbc23313-dirty
+imax    1 number of bins
+jmax    13 number of processes minus 1
+kmax    * number of nuisance parameters
+--------------------------------------------------------------------------------
+shapes * htt_tt_3_13TeV ../common/htt_input.root htt_tt_3_13TeV/$PROCESS htt_tt_3_13TeV/$PROCESS_$SYSTEMATIC
+shapes VBF htt_tt_3_13TeV ../common/htt_input.root htt_tt_3_13TeV/VBF$MASS htt_tt_3_13TeV/VBF$MASS_$SYSTEMATIC
+shapes WH htt_tt_3_13TeV ../common/htt_input.root htt_tt_3_13TeV/WH$MASS htt_tt_3_13TeV/WH$MASS_$SYSTEMATIC
+shapes ZH htt_tt_3_13TeV ../common/htt_input.root htt_tt_3_13TeV/ZH$MASS htt_tt_3_13TeV/ZH$MASS_$SYSTEMATIC
+shapes ggH htt_tt_3_13TeV ../common/htt_input.root htt_tt_3_13TeV/ggH$MASS htt_tt_3_13TeV/ggH$MASS_$SYSTEMATIC
+--------------------------------------------------------------------------------
+bin          htt_tt_3_13TeV  
+observation  624.0           
+--------------------------------------------------------------------------------
+bin                                          htt_tt_3_13TeV  htt_tt_3_13TeV  htt_tt_3_13TeV  htt_tt_3_13TeV  htt_tt_3_13TeV  htt_tt_3_13TeV  htt_tt_3_13TeV  htt_tt_3_13TeV  htt_tt_3_13TeV  htt_tt_3_13TeV  htt_tt_3_13TeV  htt_tt_3_13TeV  htt_tt_3_13TeV  htt_tt_3_13TeV  
+process                                      ZTT             W               QCD             ZL              ZJ              TTT             TTJ             VVT             VVJ             EWKZ            ggH             VBF             WH              ZH              
+process                                      1               2               3               4               5               6               7               8               9               10              -3              -2              -1              0               
+rate                                         409.482         10.4709         160.319         9.24545         3.31521         18.1563         17.9868         11.3516         1.30723         38.435          13.9131         18.0978         0.331048        0.208233        
+--------------------------------------------------------------------------------
+BR_htt_PU_alphas                     lnN     -               -               -               -               -               -               -               -               -               -               1.0062          1.0062          1.0062          1.0062          
+BR_htt_PU_mq                         lnN     -               -               -               -               -               -               -               -               -               -               1.0099          1.0099          1.0099          1.0099          
+BR_htt_THU                           lnN     -               -               -               -               -               -               -               -               -               -               1.017           1.017           1.017           1.017           
+CMS_eff_t_13TeV                      lnN     1.09            1.06            -               -               1.06            1.09            1.06            1.09            1.06            1.09            1.09            1.09            1.09            1.09            
+CMS_eff_t_tt_13TeV                   lnN     1.04            1.02            -               -               1.02            1.04            1.02            1.04            1.02            1.04            1.04            1.04            1.04            1.04            
+CMS_eff_trigger_tt_13TeV             lnN     1.1             1.1             -               1.1             1.1             -               -               -               -               -               1.1             1.1             1.1             1.1             
+CMS_htt_QCD_VBF_tt_13TeV             lnN     -               -               1.15            -               -               -               -               -               -               -               -               -               -               -               
+CMS_htt_tjXsec_13TeV                 lnN     -               -               -               -               -               1.06            1.06            -               -               -               -               -               -               -               
+CMS_htt_vvXsec_13TeV                 lnN     -               -               -               -               -               -               -               1.05            1.05            -               -               -               -               -               
+CMS_htt_wjXsec_13TeV                 lnN     -               1.04            -               -               -               -               -               -               -               -               -               -               -               -               
+CMS_htt_zmm_norm_extrap_VBF_tt_13TeV lnN     1.1             -               -               1.1             1.1             -               -               -               -               1.1             -               -               -               -               
+lumi_13TeV                           lnN     -               1.025           -               -               -               1.025           1.025           1.025           1.025           -               1.025           1.025           1.025           1.025           
+* autoMCStats 0
