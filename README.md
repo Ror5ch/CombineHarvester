@@ -17,7 +17,7 @@ A new full release area can be set up and compiled in the following steps:
     git checkout v8.1.0
     cd ../..
     cp /hdfs/store/user/senka/HTT_2016and2017/signalModels/* HiggsAnalysis/CombinedLimit/python/
-    git clone -b lt_chn ssh://git@gitlab.cern.ch:7999/KState-HEP-HTT/CombineHarvester.git CombineHarvester
+    git clone https://github.com/Ror5ch/CombineHarvester.git
     scram b
 
 Setup CMSSW_9_4_4 elsewhere (nothing but cmsrel)
