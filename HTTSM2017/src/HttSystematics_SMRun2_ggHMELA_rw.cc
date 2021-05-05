@@ -681,5 +681,9 @@ void AddSMRun2Systematics_ggHMELA_rw(CombineHarvester & cb, int tt_cate_count, i
     // cb.cp().process({"embedded"}).channel({"mt"}).AddSyst(cb,"CMS_m_embedded_FakeTau_etagt1p7_$ERA", "shape", SystMap<>::init(0.866));
 
     if (year == 2016) cb.cp().process({"embedded"}).channel({"mt"}).bin_id({1}).AddSyst(cb,"CMS_test","lnN",SystMap<>::init(1.1));
+
+    cb.cp().process({"embedded"}).channel({"em"}).bin_id({1}).AddSyst(cb, "CMS_emb_extra_0jet_$ERA", "lnN",SystMap<>::init(1.20));
+    cb.cp().process({"embedded"}).channel({"em"}).bin_id({2}).AddSyst(cb, "CMS_emb_extra_boosted_$ERA","lnN",SystMap<>::init(1.20));
+    cb.cp().process({"embedded"}).channel({"em"}).bin_id({3,4,5,6,7,8,9,10}).AddSyst(cb, "CMS_emb_extra_vbf_$ERA","lnN",SystMap<>::init(1.20));
     }
 }

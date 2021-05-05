@@ -162,10 +162,11 @@ f_out = open(outputFile, 'w')
 ## for the normToPowheg.py code you have to use CMSSW setup >= 9_4_4, for some to me unknown reason the py code does not run for the earlier versions
 ## after Morphing delete all the small size datacards (find . -name "*.txt" -size -2k -delete), these are produced for example for the empty subdirectories (et/mt)
 
+nbins = 64 if not chn == "em" else 24
 
 cmd="""
-python merge_bins.py --inputfile {path_datacard}/{name_datacard} --channel {chn} --outputfile htt_{chn}.inputs-sm-13TeV-2D_{year}{ggH_string}_{inputString}_mergedBins.root --nbins 64 --year {year} --scaleGGH {scaleGGH} --usePhiJJ {usePhiJJ}  --mergeMSV {mergeMSV} --useDCP {useDCP}
-""".format(chn=chn,path_datacard=path_datacard,name_datacard=name_datacard,year=year,inputString=inputString,useDCP=useDCP,par=par,ggH_string=ggH_string,scaleGGH=scaleGGH,usePhiJJ=usePhiJJ,mergeMSV=mergeMSV)
+python merge_bins.py --inputfile {path_datacard}/{name_datacard} --channel {chn} --outputfile htt_{chn}.inputs-sm-13TeV-2D_{year}{ggH_string}_{inputString}_mergedBins.root --nbins {nbins} --year {year} --scaleGGH {scaleGGH} --usePhiJJ {usePhiJJ}  --mergeMSV {mergeMSV} --useDCP {useDCP}
+""".format(chn=chn,path_datacard=path_datacard,name_datacard=name_datacard,nbins=nbins,year=year,inputString=inputString,useDCP=useDCP,par=par,ggH_string=ggH_string,scaleGGH=scaleGGH,usePhiJJ=usePhiJJ,mergeMSV=mergeMSV)
 
 cmd+="""
 
